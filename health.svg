@@ -1,0 +1,53 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f7fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b2ebf2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef5350;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e53935;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#006064" text-anchor="middle">大健康产业</text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="20" fill="#00838f" text-anchor="middle">Big Health Industry</text>
+  
+  <!-- 中心爱心图标 -->
+  <path d="M400 200 C350 150 300 180 300 230 C300 300 400 380 400 380 C400 380 500 300 500 230 C500 180 450 150 400 200" 
+        fill="url(#heartGradient)" stroke="#c62828" stroke-width="3"/>
+  
+  <!-- 心电图线条 -->
+  <path d="M250 280 L280 280 L290 260 L300 300 L310 250 L320 280 L350 280" 
+        fill="none" stroke="#00bcd4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 四个健康主题图标和文字 -->
+  <!-- 医疗健康 -->
+  <circle cx="200" y="450" r="50" fill="#4fc3f7" opacity="0.8"/>
+  <text x="200" y="445" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">🏥</text>
+  <text x="200" y="470" font-family="Arial, sans-serif" font-size="14" fill="#006064" text-anchor="middle">医疗健康</text>
+  
+  <!-- 运动健康 -->
+  <circle cx="350" y="450" r="50" fill="#81c784" opacity="0.8"/>
+  <text x="350" y="445" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">🏃</text>
+  <text x="350" y="470" font-family="Arial, sans-serif" font-size="14" fill="#006064" text-anchor="middle">运动健康</text>
+  
+  <!-- 心理健康 -->
+  <circle cx="500" y="450" r="50" fill="#ffb74d" opacity="0.8"/>
+  <text x="500" y="445" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">😊</text>
+  <text x="500" y="470" font-family="Arial, sans-serif" font-size="14" fill="#006064" text-anchor="middle">心理健康</text>
+  
+  <!-- 营养健康 -->
+  <circle cx="650" y="450" r="50" fill="#ba68c8" opacity="0.8"/>
+  <text x="650" y="445" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">🥗</text>
+  <text x="650" y="470" font-family="Arial, sans-serif" font-size="14" fill="#006064" text-anchor="middle">营养健康</text>
+  
+  <!-- 底部标语 -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="16" fill="#006064" text-anchor="middle">关爱健康 · 从心开始</text>
+  <text x="400" y="575" font-family="Arial, sans-serif" font-size="12" fill="#00838f" text-anchor="middle">2026 年 3 月 7 日</text>
+</svg>
